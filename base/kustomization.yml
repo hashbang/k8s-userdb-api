@@ -1,0 +1,7 @@
+resources:
+    - resources.yml
+    - prod_issuer.yml
+configMapGenerator:
+    - name: config
+      env: config.txt
+
